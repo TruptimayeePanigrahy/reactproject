@@ -1,0 +1,100 @@
+/* Signup.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+#signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  height: 100vh;
+  width: 70vw;
+  margin: auto;
+}
+
+#image-section,
+#signup-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#image-section img {
+  max-width: 100%;
+  height: 500px;
+  width: 500px;
+}
+
+#signup-section {
+  background-color: #1A237E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  margin-top: 120px;
+  margin-left: -60px;
+  border-radius: 20px;
+}
+
+#signup-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#signup-section div {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#signup-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: white;
+}
+
+#signup-section input[type="text"],
+#signup-section input[type="password"] {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#signup-section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #12d833;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#signup-section button:hover {
+  background-color: #12e8e1;
+}
+
+#signup-section p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+#signup-section p a {
+  color: #0095f6;
+  text-decoration: none;
+}
+
+#signup-section p a:hover {
+  text-decoration: underline;
+}

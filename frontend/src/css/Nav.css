@@ -1,0 +1,18 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+background-color: aqua;
+padding: 20px;
+font-size: 20px;
+font-weight: bold;
+}
+
+#right-nav{
+    display: flex;
+    justify-content: space-around;
+    width:20%
+}
+#right-nav a{
+    text-decoration: none;
+
+}
